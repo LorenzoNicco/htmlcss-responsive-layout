@@ -34,6 +34,10 @@ body {
     flex-wrap: wrap;
 }
 
+.ai-center {
+    align-items: center;
+}
+
 .ai-end {
     align-items: flex-end;
 }
@@ -44,6 +48,12 @@ body {
 
 ul {
     list-style: none;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
 }
 
 /* VARIABILI */

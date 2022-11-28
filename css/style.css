@@ -5,13 +5,35 @@ header {
 
 header .header-row {
     width: 100%;
-    padding: 1.5rem;
+    line-height: 3rem;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+header li {
+    padding: 10px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header button {
+    background-color: white;
+}
+
+header button > a {
+    color: black;
 }
 
 /* MAIN */
 /* sezione introduzione */
 #intro .cards {
     padding: var(--padding-container);
+    margin: 0 -0.75rem;
 }
 
 #intro .card:not(first-child) {
@@ -71,6 +93,10 @@ header .header-row {
 
 #benefits > .container-big > div {
     text-align: center;
+}
+
+#benefits > .container-big > .cards {
+    margin: 0 -0.75rem;
 }
 
 #benefits .card {
