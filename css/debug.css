@@ -11,3 +11,8 @@
     height: 600px;
     background-color: aqua;
 }
+
+/* sezione testimonials */
+.debug #testimonials .container-big > div {
+    background-color: coral;
+}

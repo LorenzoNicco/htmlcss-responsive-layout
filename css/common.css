@@ -38,6 +38,10 @@ body {
     align-items: flex-end;
 }
 
+.just-start {
+    justify-content: flex-start;
+}
+
 ul {
     list-style: none;
 }
@@ -48,5 +52,5 @@ ul {
     --primary-color-light: #b5ddff;
     --secondary-color: #9792e4;
 
-    --margin-container: 2rem;
+    --padding-container: 2rem 0;
 }

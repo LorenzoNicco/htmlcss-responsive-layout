@@ -11,20 +11,18 @@ header .header-row {
 /* MAIN */
 /* sezione introduzione */
 #intro .cards {
-    margin-top: var(--margin-container);
+    padding: var(--padding-container);
 }
 
 #intro .card:not(first-child) {
     width: calc((100% / 3) - 1.5rem);
     background-color: var(--primary-color-light);
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
+    margin: 0.75rem;
 }
 
 #intro .card:first-child {
     width: calc(((100% / 3) * 2) - 1.5rem);
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
+    margin: 0.75rem;
 }
 
 /* sezione planning */
@@ -33,10 +31,32 @@ header .header-row {
 }
 
 #planning .cards {
-    margin-top: var(--margin-container);
+    padding: var(--padding-container);
 }
 
 
 #planning .card{
     width: 50%;
+}
+
+/* sezione testimonials */
+#testimonials > .container-big {
+    padding: var(--padding-container);
+    text-align: center;
+}
+
+#testimonials .card {
+    background-color: var(--secondary-color);
+}
+
+#testimonials .card-pic {
+    width: 20%;
+}
+
+#testimonials .card-text {
+    width: 80%;
+}
+
+#testimonials > .container-big > div {
+    margin-top: 1.5rem;
 }
