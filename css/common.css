@@ -16,7 +16,7 @@ body {
 }
 
 .container-medium {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -25,6 +25,21 @@ body {
     margin: 0 auto;
 }
 
+ul {
+    list-style: none;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* FLEX */
 .container-flex {
     display: flex;
     justify-content: space-between;
@@ -54,18 +69,8 @@ body {
     justify-content: flex-start;
 }
 
-ul {
-    list-style: none;
-}
-
-button {
-    border-radius: 20px;
-    border: none;
-    padding: 10px;
-}
-
-a {
-    text-decoration: none;
+.just-center {
+    justify-content: center;
 }
 
 /* VARIABILI */

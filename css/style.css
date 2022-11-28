@@ -94,9 +94,44 @@ header button > a {
     padding: var(--padding-container);
 }
 
+#planning .cards > .card:last-child {
+    background-color: white;
+    border-radius: 20px;
+}
+
+#planning .cards > .card:first-child > img {
+    margin: 4rem 0;
+}
+
+#planning .cards > .card:first-child > h3 {
+    color: white;
+    margin-bottom: 2rem;
+}
 
 #planning .card{
     width: 50%;
+    padding: var(--padding-card);
+}
+
+#planning .cards > .card:first-child > img {
+    width: 100%;
+}
+
+#planning .cards > .card:last-child > img {
+    width: 70%;
+    margin-bottom: 1rem;
+}
+
+#planning .cards > .card:last-child > p {
+    margin: 1rem 0;
+}
+
+#planning .arrow {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+    text-align: center;
 }
 
 /* sezione testimonials */
