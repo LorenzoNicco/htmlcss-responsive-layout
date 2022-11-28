@@ -105,3 +105,14 @@ header .header-row {
 #get-started > .container-small > div {
     margin: 2rem 0;
 }
+
+/* FOOTER */
+footer {
+    background-color: #333333;
+    text-align: center;
+    padding: var(--padding-container);
+}
+
+footer > .container-small > div:first-child {
+    margin-bottom: 2.5rem;
+}
