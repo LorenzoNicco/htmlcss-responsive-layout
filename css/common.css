@@ -1,6 +1,40 @@
 /* RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* REGOLE GENERALI */
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container-big {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-medium {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+/* VARIABILI */
+:root {
+    --primary-color: #0084fd;
 }
