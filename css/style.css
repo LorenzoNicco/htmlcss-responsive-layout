@@ -99,22 +99,19 @@ header button > a {
     border-radius: 20px;
 }
 
-#planning .cards > .card:first-child > img {
-    margin: 4rem 0;
-}
-
-#planning .cards > .card:first-child > h3 {
-    color: white;
-    margin-bottom: 2rem;
-}
-
 #planning .card{
     width: 50%;
     padding: var(--padding-card);
 }
 
 #planning .cards > .card:first-child > img {
+    margin: 4rem 0;
     width: 100%;
+}
+
+#planning .cards > .card:first-child > h3 {
+    color: white;
+    margin-bottom: 2rem;
 }
 
 #planning .cards > .card:last-child > img {
@@ -137,6 +134,17 @@ header button > a {
 /* sezione testimonials */
 #testimonials > .container-big {
     padding: var(--padding-container);
+    text-align: center;
+}
+
+#testimonials h4 {
+    font-weight: lighter;
+}
+
+#testimonials h2 {
+    color: var(--secondary-color);
+    margin: var(--main-margin-distance);
+    font-size: 2.5rem;
 }
 
 #testimonials .card {
