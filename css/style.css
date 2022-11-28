@@ -42,7 +42,6 @@ header .header-row {
 /* sezione testimonials */
 #testimonials > .container-big {
     padding: var(--padding-container);
-    text-align: center;
 }
 
 #testimonials .card {
@@ -78,4 +77,17 @@ header .header-row {
     width: calc((100% / 3) - 1.5rem);
     margin: 0.75rem;
     background-color: white;
+}
+
+/* sezione about-us */
+#about-us > .container-big {
+    padding: var(--padding-container);
+}
+
+#about-us .card-text {
+    width: 60%;
+}
+
+#about-us .card-pic {
+    width: 40%;
 }

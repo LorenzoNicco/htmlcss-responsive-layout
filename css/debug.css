@@ -16,3 +16,12 @@
 .debug #testimonials .container-big > div {
     background-color: coral;
 }
+
+/* sezione about-us */
+.debug #about-us .card-text {
+    background-color: crimson;
+}
+
+.debug #about-us .card-pic {
+    background-color: lawngreen;
+}
