@@ -30,6 +30,10 @@ body {
     justify-content: space-between;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
 ul {
     list-style: none;
 }
@@ -37,4 +41,8 @@ ul {
 /* VARIABILI */
 :root {
     --primary-color: #0084fd;
+    --primary-color-light: #b5ddff;
+    --secondary-color: #9792e4;
+
+    --margin-container: 2rem 0
 }

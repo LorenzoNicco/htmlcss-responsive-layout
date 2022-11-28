@@ -7,3 +7,27 @@ header .header-row {
     width: 100%;
     padding: 1.5rem;
 }
+
+/* MAIN */
+/* sezione introduzione */
+#intro .cards {
+    margin: var(--margin-container);
+}
+
+#intro .card:not(first-child) {
+    width: calc((100% / 3) - 1.5rem);
+    background-color: var(--primary-color-light);
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+#intro .card:first-child {
+    width: calc(((100% / 3) * 2) - 1.5rem);
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+/* sezione planning */
+#planning {
+    background-color: var(--secondary-color);
+}
