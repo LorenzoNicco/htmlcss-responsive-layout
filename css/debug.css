@@ -25,3 +25,8 @@
 .debug #about-us .card-pic {
     background-color: lawngreen;
 }
+
+/* sezione get started */
+.debug #get-started > .container-small > div {
+    background-color: coral;
+}

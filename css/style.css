@@ -91,3 +91,17 @@ header .header-row {
 #about-us .card-pic {
     width: 40%;
 }
+
+/* sezione get started */
+#get-started {
+    background-color: var(--secondary-color);
+}
+
+#get-started > .container-small {
+    text-align: center;
+    padding: var(--padding-container);
+}
+
+#get-started > .container-small > div {
+    margin: 2rem 0;
+}
