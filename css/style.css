@@ -11,7 +11,7 @@ header .header-row {
 /* MAIN */
 /* sezione introduzione */
 #intro .cards {
-    margin: var(--margin-container);
+    margin-top: var(--margin-container);
 }
 
 #intro .card:not(first-child) {
@@ -30,4 +30,13 @@ header .header-row {
 /* sezione planning */
 #planning {
     background-color: var(--secondary-color);
+}
+
+#planning .cards {
+    margin-top: var(--margin-container);
+}
+
+
+#planning .card{
+    width: 50%;
 }

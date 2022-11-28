@@ -1,2 +1,13 @@
 /* MAIN */
 /* sezione introduzione */
+
+/* sezione planning */
+.debug #planning .card:last-child {
+    background-color: brown;
+    height: 400px;
+}
+
+.debug #planning .card:first-child {
+    height: 600px;
+    background-color: aqua;
+}
