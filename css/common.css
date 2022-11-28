@@ -30,8 +30,16 @@ body {
     justify-content: space-between;
 }
 
+.flex-col {
+    flex-direction: column;
+}
+
 .wrap {
     flex-wrap: wrap;
+}
+
+.ai-start {
+    align-items: flex-start;
 }
 
 .ai-center {
@@ -56,6 +64,10 @@ button {
     padding: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* VARIABILI */
 :root {
     --primary-color: #0084fd;
@@ -63,4 +75,5 @@ button {
     --secondary-color: #9792e4;
 
     --padding-container: 2rem 0;
+    --padding-card: 1rem;
 }
