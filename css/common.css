@@ -75,5 +75,6 @@ a {
     --secondary-color: #9792e4;
 
     --padding-container: 2rem 0;
-    --padding-card: 1rem;
+    --padding-card: 1.5rem 1rem;
+    --main-margin-distance: 2rem 0;
 }
