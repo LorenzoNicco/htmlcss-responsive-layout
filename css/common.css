@@ -25,6 +25,11 @@ body {
     margin: 0 auto;
 }
 
+.container-xs {
+    width: 300px;
+    margin: 0 auto;
+}
+
 ul {
     list-style: none;
 }
