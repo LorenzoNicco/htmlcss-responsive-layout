@@ -211,7 +211,7 @@ header .fa-bars {
     font-size:x-large;
 }
 
-#testimonials > .container-big > div {
+#testimonials .cards > .card {
     margin-top: 1.5rem;
 }
 
