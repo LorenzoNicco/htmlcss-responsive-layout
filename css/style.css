@@ -255,11 +255,55 @@ header button > a {
 }
 
 #about-us .card-text {
-    width: 60%;
+    width: 70%;
+    padding: var(--padding-card);
+}
+
+#about-us .card-text > h2 {
+    color: var(--secondary-color);
+    font-size: 3rem;
+}
+
+#about-us .card-text > p {
+    margin: var(--main-margin-distance);
 }
 
 #about-us .card-pic {
-    width: 40%;
+    width: 30%;
+    padding: var(--padding-card);
+}
+
+#about-us .profile-pic {
+    position: relative;
+    width: fit-content;
+}
+
+#about-us .profile-pic img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#about-us .profile-pic > .fa-solid {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--secondary-color);
+}
+
+#about-us .card-pic > p {
+    margin: var(--main-margin-distance);
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+
+#about-us .card-pic > button {
+    background-color: var(--secondary-color);
+}
+
+#about-us .card-pic > button > a {
+    color: white;
 }
 
 /* sezione get started */
