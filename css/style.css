@@ -91,7 +91,7 @@ header button > a {
 }
 
 #intro i{
-    color: white;
+    color: var(--primary-color);
 }
 
 /* sezione planning */
@@ -205,22 +205,48 @@ header button > a {
     background-color: var(--secondary-color);
 }
 
+#benefits h2 {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 #benefits > .container-big {
     padding: var(--padding-container);
 }
 
-#benefits > .container-big > div {
-    text-align: center;
-}
-
 #benefits > .container-big > .cards {
     margin: 0 -0.75rem;
+    color: var(--secondary-color);
 }
 
 #benefits .card {
     width: calc((100% / 3) - 1.5rem);
     margin: 0.75rem;
     background-color: white;
+    border-radius: 20px;
+    padding: var(--padding-card);
+
+}
+
+#benefits .card > div {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#benefits .card > h3 {
+    margin: 1.5rem 0;
+}
+
+#benefits .card > button {
+    background-color: var(--secondary-color);
+    width: 100px;
+    margin-top: 1.5rem;
+}
+
+#benefits .card > button > a {
+    color: white;
 }
 
 /* sezione about-us */
