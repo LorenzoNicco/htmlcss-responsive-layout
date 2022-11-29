@@ -48,8 +48,8 @@ header button > a {
     width: calc(((100% / 3) * 2) - 1.5rem);
     margin: 0.75rem;
     border-radius: 10px;
-    padding: var(--padding-card);
     text-align: left;
+    padding: 0;
 }
 
 #intro h3 {
@@ -57,16 +57,21 @@ header button > a {
     margin: var(--main-margin-distance);
 }
 
-#intro .card:first-child > div > h3 {
+#intro .first-card-text {
+    padding: var(--padding-card);
+}
+
+#intro .first-card-text h3 {
     margin: 0;
 }
 
-#intro .card:first-child > div > p {
+#intro .first-card-text > p {
     margin: var(--main-margin-distance);
 }
 
 #intro button {
     background-color: var(--primary-color);
+    width: 150px;
 }
 
 #intro a {
@@ -77,12 +82,16 @@ header button > a {
     width: 50%;
 }
 
+#intro .first-card-img {
+    padding-left: 20px;
+}
+
 #intro img {
     width: 70%;   
 }
 
 #intro i{
-    color: var(--primary-color);
+    color: white;
 }
 
 /* sezione planning */
@@ -149,14 +158,42 @@ header button > a {
 
 #testimonials .card {
     background-color: var(--secondary-color);
+    border-radius: 20px;
+    text-align: left;
+    color: white;
+}
+
+#testimonials .card > .card-pic > img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 #testimonials .card-pic {
     width: 20%;
+    text-align: center;
 }
 
 #testimonials .card-text {
     width: 80%;
+    padding: 2rem
+}
+
+#testimonials .card-text > p {
+    margin-bottom: 2rem;
+}
+
+#testimonials .card-text > p:first-child:before {
+    content: "\275D";
+    color: white;
+    font-size: x-large;
+}
+
+#testimonials .card-text > p:first-child:after {
+    content: "\275E";
+    color: white;
+    font-size:x-large;
 }
 
 #testimonials > .container-big > div {
