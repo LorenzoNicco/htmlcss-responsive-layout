@@ -6,6 +6,10 @@
 }
 
 /* REGOLE GENERALI */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'PT Sans', sans-serif;
 }
@@ -26,7 +30,7 @@ body {
 }
 
 .container-xs {
-    width: 300px;
+    max-width: 300px;
     margin: 0 auto;
 }
 

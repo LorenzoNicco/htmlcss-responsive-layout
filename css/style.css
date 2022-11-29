@@ -1,6 +1,9 @@
 /* HEADER */
 header {
     background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
+    z-index: 50;
 }
 
 header .header-row {
@@ -26,6 +29,11 @@ header button {
 
 header button > a {
     color: black;
+}
+
+header .fa-bars {
+    color: white;
+    display: none;
 }
 
 /* MAIN */
@@ -78,7 +86,7 @@ header button > a {
     color: white;
 }
 
-#intro .card > div {
+#intro .card > .first-card-text,.first-card-img {
     width: 50%;
 }
 
@@ -97,6 +105,7 @@ header button > a {
 /* sezione planning */
 #planning {
     background-color: var(--secondary-color);
+    scroll-margin: 70px;
 }
 
 #planning .cards {
@@ -106,6 +115,7 @@ header button > a {
 #planning .cards > .card:last-child {
     background-color: white;
     border-radius: 20px;
+    text-align: center;
 }
 
 #planning .card{
@@ -141,6 +151,10 @@ header button > a {
 }
 
 /* sezione testimonials */
+#testimonials {
+    scroll-margin: 70px;
+}
+
 #testimonials > .container-big {
     padding: var(--padding-container);
     text-align: center;
@@ -161,6 +175,7 @@ header button > a {
     border-radius: 20px;
     text-align: left;
     color: white;
+    padding: var(--padding-card);
 }
 
 #testimonials .card > .card-pic > img {
@@ -250,6 +265,10 @@ header button > a {
 }
 
 /* sezione about-us */
+#about-us {
+    scroll-margin: 70px;
+}
+
 #about-us > .container-big {
     padding: var(--padding-container);
 }
@@ -309,6 +328,7 @@ header button > a {
 /* sezione get started */
 #get-started {
     background-color: var(--secondary-color);
+    scroll-margin: 70px;
 }
 
 #get-started > .container-small {

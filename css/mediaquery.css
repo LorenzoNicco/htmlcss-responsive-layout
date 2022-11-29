@@ -1,0 +1,47 @@
+/* MEDIA TABLET */
+@media screen and (max-width: 992px) {
+    .container-big {
+        max-width: 768px;
+    }
+
+    .container-medium {
+        max-width: 768px;
+    }
+
+    /* HEADER */
+    header nav {
+        display: none;
+    }
+
+    header .fa-bars {
+        display: block;
+    }
+
+    /* MAIN */
+    /* sezione inroduzione */
+    #intro > div > .cards > .card:first-child {
+        flex-wrap: wrap;
+    }
+
+    #intro .card > .first-card-text,.first-card-img {
+        width: 100%;
+    }
+
+    #intro img {
+        width: 50%;   
+    }
+
+    /* sezione planning */
+    #planning .cards {
+        flex-wrap: wrap;
+    }
+
+    #planning .card {
+        width: 100%;
+    }
+
+    /* sezione benefits */
+    #benefits .card {
+        width: calc(50% - 1.5rem);
+    }
+}
